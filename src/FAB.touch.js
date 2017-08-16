@@ -43,4 +43,4 @@ window[window.FABNAMESPACE] = window.window[window.FABNAMESPACE] || {};
             return support;
         }
     };
-})(window.FAB, window, document);
+})(window[window.FABNAMESPACE], window, document);
